@@ -9,13 +9,3 @@
         - Inout: ruby <path>.rb 4
         - Output: 4 é par
 =end  
-
-def check_parity(n)
-  if n%2 == 0
-    puts "#{n} é par"
-  else
-    puts "#{n} é ímpar"
-  end
-end
-
-check_parity(ARGV[0].to_i)
