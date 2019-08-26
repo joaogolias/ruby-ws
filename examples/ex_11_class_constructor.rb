@@ -1,6 +1,7 @@
 class HumanBeing
   attr_reader :name, :age
 
+  # Podemos fazer o '.new' receber argumentos e iniciar algumas propriedades do objeto em si
   def initialize(name, age)
     @name = name
     @age = age
