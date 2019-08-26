@@ -17,3 +17,16 @@
         - Input: ruby <path>.rb 1 2 3
         - Output: O triângulo é escaleno
 =end  
+
+side_a = ARGV[0]
+side_b = ARGV[1]
+side_c = ARGV[2]
+
+if side_a == side_b and side_b == side_c
+  puts "O triângulo é equilátero"
+elsif side_a == side_b or side_b == side_c or side_c == side_a
+  puts "O triângulo é isósceles"
+else
+  puts "O triângulo é escaleno"
+end
+
